@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D67F5DFD20204FC30069571D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D67F5DFC20204FC30069571D /* AppDelegate.m */; };
+		D67F5E0020204FC30069571D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67F5DFF20204FC30069571D /* FirstViewController.m */; };
+		D67F5E0320204FC30069571D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67F5E0220204FC30069571D /* SecondViewController.m */; };
+		D67F5E0620204FC30069571D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D67F5E0420204FC30069571D /* Main.storyboard */; };
+		D67F5E0820204FC30069571D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D67F5E0720204FC30069571D /* Assets.xcassets */; };
+		D67F5E0B20204FC30069571D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D67F5E0920204FC30069571D /* LaunchScreen.storyboard */; };
+		D67F5E0E20204FC30069571D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D67F5E0D20204FC30069571D /* main.m */; };
+		D67F5E19202051040069571D /* HGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67F5E18202051040069571D /* HGBaseViewController.m */; };
+		D67F5E1D2020512A0069571D /* HGMarkDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67F5E1C2020512A0069571D /* HGMarkDownViewController.m */; };
+		D67F5E21202052880069571D /* HGMarkDownTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D67F5E20202052880069571D /* HGMarkDownTextView.m */; };
+		D67F5E24202053F00069571D /* HGButtonsBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D67F5E23202053F00069571D /* HGButtonsBarView.m */; };
+		D67F5E272020604D0069571D /* HGToolbarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D67F5E262020604D0069571D /* HGToolbarButton.m */; };
+		D67F5E2B2020830C0069571D /* NSArray+HGMASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D67F5E2A2020830C0069571D /* NSArray+HGMASAdditions.m */; };
+		D67F5E3620209C3A0069571D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67F5E3520209C390069571D /* WebKit.framework */; };
+		D67F5E4720217F770069571D /* markdown.html in Resources */ = {isa = PBXBuildFile; fileRef = D67F5E4620217F760069571D /* markdown.html */; };
+		DE8A67D5D49D8DE66CA48064 /* libPods-HGInspirationNotes_OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B6AEC15EF9EBEAD2B90C56 /* libPods-HGInspirationNotes_OC.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D6F80D752021B29100EF8E07 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		580A1A64D78C105F2E71D64E /* Pods-HGInspirationNotes_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGInspirationNotes_OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGInspirationNotes_OC/Pods-HGInspirationNotes_OC.release.xcconfig"; sourceTree = "<group>"; };
+		86B6AEC15EF9EBEAD2B90C56 /* libPods-HGInspirationNotes_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGInspirationNotes_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EA90154CF155B8740C3855 /* Pods-HGInspirationNotes_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGInspirationNotes_OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGInspirationNotes_OC/Pods-HGInspirationNotes_OC.debug.xcconfig"; sourceTree = "<group>"; };
+		D67F5DF820204FC30069571D /* HGInspirationNotes_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGInspirationNotes_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D67F5DFB20204FC30069571D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D67F5DFC20204FC30069571D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D67F5DFE20204FC30069571D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D67F5DFF20204FC30069571D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D67F5E0120204FC30069571D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D67F5E0220204FC30069571D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D67F5E0520204FC30069571D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D67F5E0720204FC30069571D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D67F5E0A20204FC30069571D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D67F5E0C20204FC30069571D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D67F5E0D20204FC30069571D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D67F5E17202051040069571D /* HGBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGBaseViewController.h; sourceTree = "<group>"; };
+		D67F5E18202051040069571D /* HGBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGBaseViewController.m; sourceTree = "<group>"; };
+		D67F5E1B2020512A0069571D /* HGMarkDownViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGMarkDownViewController.h; sourceTree = "<group>"; };
+		D67F5E1C2020512A0069571D /* HGMarkDownViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGMarkDownViewController.m; sourceTree = "<group>"; };
+		D67F5E1F202052880069571D /* HGMarkDownTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGMarkDownTextView.h; sourceTree = "<group>"; };
+		D67F5E20202052880069571D /* HGMarkDownTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGMarkDownTextView.m; sourceTree = "<group>"; };
+		D67F5E22202053F00069571D /* HGButtonsBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGButtonsBarView.h; sourceTree = "<group>"; };
+		D67F5E23202053F00069571D /* HGButtonsBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGButtonsBarView.m; sourceTree = "<group>"; };
+		D67F5E252020604D0069571D /* HGToolbarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGToolbarButton.h; sourceTree = "<group>"; };
+		D67F5E262020604D0069571D /* HGToolbarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGToolbarButton.m; sourceTree = "<group>"; };
+		D67F5E292020830C0069571D /* NSArray+HGMASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+HGMASAdditions.h"; sourceTree = "<group>"; };
+		D67F5E2A2020830C0069571D /* NSArray+HGMASAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HGMASAdditions.m"; sourceTree = "<group>"; };
+		D67F5E30202091350069571D /* HGInspirationNotes_OC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGInspirationNotes_OC-Bridging-Header.h"; sourceTree = "<group>"; };
+		D67F5E3520209C390069571D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D67F5E4620217F760069571D /* markdown.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = markdown.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D67F5DF520204FC30069571D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67F5E3620209C3A0069571D /* WebKit.framework in Frameworks */,
+				DE8A67D5D49D8DE66CA48064 /* libPods-HGInspirationNotes_OC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D67F5DEF20204FC30069571D = {
+			isa = PBXGroup;
+			children = (
+				D67F5DFA20204FC30069571D /* HGInspirationNotes_OC */,
+				D67F5DF920204FC30069571D /* Products */,
+				ECA6300B169C82199BB8F527 /* Pods */,
+				ED320804A55CFABFBBFB28FE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D67F5DF920204FC30069571D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D67F5DF820204FC30069571D /* HGInspirationNotes_OC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D67F5DFA20204FC30069571D /* HGInspirationNotes_OC */ = {
+			isa = PBXGroup;
+			children = (
+				D67F5E28202082C60069571D /* Category */,
+				D67F5E16202050F10069571D /* Base */,
+				D67F5E15202050DA0069571D /* Cofee */,
+				D67F5E14202050CD0069571D /* Framework */,
+			);
+			path = HGInspirationNotes_OC;
+			sourceTree = "<group>";
+		};
+		D67F5E14202050CD0069571D /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				D67F5DFB20204FC30069571D /* AppDelegate.h */,
+				D67F5DFC20204FC30069571D /* AppDelegate.m */,
+				D67F5E0420204FC30069571D /* Main.storyboard */,
+				D67F5E0720204FC30069571D /* Assets.xcassets */,
+				D67F5E0920204FC30069571D /* LaunchScreen.storyboard */,
+				D67F5E0C20204FC30069571D /* Info.plist */,
+				D67F5E0D20204FC30069571D /* main.m */,
+				D67F5E30202091350069571D /* HGInspirationNotes_OC-Bridging-Header.h */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		D67F5E15202050DA0069571D /* Cofee */ = {
+			isa = PBXGroup;
+			children = (
+				D67F5E1A202051110069571D /* MarkDown */,
+				D67F5DFE20204FC30069571D /* FirstViewController.h */,
+				D67F5DFF20204FC30069571D /* FirstViewController.m */,
+				D67F5E0120204FC30069571D /* SecondViewController.h */,
+				D67F5E0220204FC30069571D /* SecondViewController.m */,
+			);
+			path = Cofee;
+			sourceTree = "<group>";
+		};
+		D67F5E16202050F10069571D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D67F5E17202051040069571D /* HGBaseViewController.h */,
+				D67F5E18202051040069571D /* HGBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D67F5E1A202051110069571D /* MarkDown */ = {
+			isa = PBXGroup;
+			children = (
+				D67F5E1E202052700069571D /* Views */,
+				D67F5E1B2020512A0069571D /* HGMarkDownViewController.h */,
+				D67F5E1C2020512A0069571D /* HGMarkDownViewController.m */,
+			);
+			path = MarkDown;
+			sourceTree = "<group>";
+		};
+		D67F5E1E202052700069571D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D67F5E3A202153130069571D /* HGMarkDown */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D67F5E28202082C60069571D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D67F5E292020830C0069571D /* NSArray+HGMASAdditions.h */,
+				D67F5E2A2020830C0069571D /* NSArray+HGMASAdditions.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D67F5E3A202153130069571D /* HGMarkDown */ = {
+			isa = PBXGroup;
+			children = (
+				D67F5E4320216CA50069571D /* HGToolbarView */,
+				D67F5E4220216C810069571D /* HGMarkDownEditView */,
+			);
+			path = HGMarkDown;
+			sourceTree = "<group>";
+		};
+		D67F5E4220216C810069571D /* HGMarkDownEditView */ = {
+			isa = PBXGroup;
+			children = (
+				D67F5E1F202052880069571D /* HGMarkDownTextView.h */,
+				D67F5E20202052880069571D /* HGMarkDownTextView.m */,
+				D67F5E4620217F760069571D /* markdown.html */,
+			);
+			path = HGMarkDownEditView;
+			sourceTree = "<group>";
+		};
+		D67F5E4320216CA50069571D /* HGToolbarView */ = {
+			isa = PBXGroup;
+			children = (
+				D67F5E22202053F00069571D /* HGButtonsBarView.h */,
+				D67F5E23202053F00069571D /* HGButtonsBarView.m */,
+				D67F5E252020604D0069571D /* HGToolbarButton.h */,
+				D67F5E262020604D0069571D /* HGToolbarButton.m */,
+			);
+			path = HGToolbarView;
+			sourceTree = "<group>";
+		};
+		ECA6300B169C82199BB8F527 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4EA90154CF155B8740C3855 /* Pods-HGInspirationNotes_OC.debug.xcconfig */,
+				580A1A64D78C105F2E71D64E /* Pods-HGInspirationNotes_OC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED320804A55CFABFBBFB28FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D67F5E3520209C390069571D /* WebKit.framework */,
+				86B6AEC15EF9EBEAD2B90C56 /* libPods-HGInspirationNotes_OC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D67F5DF720204FC30069571D /* HGInspirationNotes_OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D67F5E1120204FC30069571D /* Build configuration list for PBXNativeTarget "HGInspirationNotes_OC" */;
+			buildPhases = (
+				7AE12473A2D87397BDF644CA /* [CP] Check Pods Manifest.lock */,
+				D67F5DF420204FC30069571D /* Sources */,
+				D67F5DF520204FC30069571D /* Frameworks */,
+				D67F5DF620204FC30069571D /* Resources */,
+				499A3D212BE4D65EBC53D594 /* [CP] Embed Pods Frameworks */,
+				19E28D7CE7B244B058BE5B62 /* [CP] Copy Pods Resources */,
+				D6F80D752021B29100EF8E07 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HGInspirationNotes_OC;
+			productName = HGInspirationNotes_OC;
+			productReference = D67F5DF820204FC30069571D /* HGInspirationNotes_OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D67F5DF020204FC30069571D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "小雨很美";
+				TargetAttributes = {
+					D67F5DF720204FC30069571D = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D67F5DF320204FC30069571D /* Build configuration list for PBXProject "HGInspirationNotes_OC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D67F5DEF20204FC30069571D;
+			productRefGroup = D67F5DF920204FC30069571D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D67F5DF720204FC30069571D /* HGInspirationNotes_OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D67F5DF620204FC30069571D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67F5E0B20204FC30069571D /* LaunchScreen.storyboard in Resources */,
+				D67F5E0820204FC30069571D /* Assets.xcassets in Resources */,
+				D67F5E4720217F770069571D /* markdown.html in Resources */,
+				D67F5E0620204FC30069571D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19E28D7CE7B244B058BE5B62 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGInspirationNotes_OC/Pods-HGInspirationNotes_OC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		499A3D212BE4D65EBC53D594 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGInspirationNotes_OC/Pods-HGInspirationNotes_OC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AE12473A2D87397BDF644CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HGInspirationNotes_OC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D67F5DF420204FC30069571D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67F5E21202052880069571D /* HGMarkDownTextView.m in Sources */,
+				D67F5E272020604D0069571D /* HGToolbarButton.m in Sources */,
+				D67F5E19202051040069571D /* HGBaseViewController.m in Sources */,
+				D67F5E0320204FC30069571D /* SecondViewController.m in Sources */,
+				D67F5E24202053F00069571D /* HGButtonsBarView.m in Sources */,
+				D67F5E2B2020830C0069571D /* NSArray+HGMASAdditions.m in Sources */,
+				D67F5E1D2020512A0069571D /* HGMarkDownViewController.m in Sources */,
+				D67F5DFD20204FC30069571D /* AppDelegate.m in Sources */,
+				D67F5E0E20204FC30069571D /* main.m in Sources */,
+				D67F5E0020204FC30069571D /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D67F5E0420204FC30069571D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D67F5E0520204FC30069571D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D67F5E0920204FC30069571D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D67F5E0A20204FC30069571D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D67F5E0F20204FC30069571D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D67F5E1020204FC30069571D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D67F5E1220204FC30069571D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4EA90154CF155B8740C3855 /* Pods-HGInspirationNotes_OC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VE43YF4AD7;
+				INFOPLIST_FILE = HGInspirationNotes_OC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myway.HGInspirationNotes-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HGInspirationNotes_OC/HGInspirationNotes_OC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D67F5E1320204FC30069571D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 580A1A64D78C105F2E71D64E /* Pods-HGInspirationNotes_OC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VE43YF4AD7;
+				INFOPLIST_FILE = HGInspirationNotes_OC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myway.HGInspirationNotes-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HGInspirationNotes_OC/HGInspirationNotes_OC-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D67F5DF320204FC30069571D /* Build configuration list for PBXProject "HGInspirationNotes_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67F5E0F20204FC30069571D /* Debug */,
+				D67F5E1020204FC30069571D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D67F5E1120204FC30069571D /* Build configuration list for PBXNativeTarget "HGInspirationNotes_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67F5E1220204FC30069571D /* Debug */,
+				D67F5E1320204FC30069571D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D67F5DF020204FC30069571D /* Project object */;
+}
