@@ -7,7 +7,8 @@
 //
 
 #import "HGBaseViewController.h"
-
+#import "HGCollectionDBModel.h"
 @interface HGMarkDownViewController : HGBaseViewController
-
+@property (nonatomic, strong)HGCollectionDBModel *currentModel;
+@property (nonatomic) NSInteger currentIndex;
 @end

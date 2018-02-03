@@ -1,18 +1,18 @@
 //
-//  HGBaseViewController.m
+//  HGBaseNaviViewController.m
 //  HGInspirationNotes_OC
 //
-//  Created by 小雨很美 on 2018/1/30.
+//  Created by 小雨很美 on 2018/2/2.
 //  Copyright © 2018年 小雨很美. All rights reserved.
 //
 
-#import "HGBaseViewController.h"
+#import "HGBaseNaviViewController.h"
 
-@interface HGBaseViewController ()
+@interface HGBaseNaviViewController ()
 
 @end
 
-@implementation HGBaseViewController
+@implementation HGBaseNaviViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -23,9 +23,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (BOOL)hidesBottomBarWhenPushed{
-	return self.navigationController.viewControllers.count > 1;
-}
+
 /*
 #pragma mark - Navigation
 

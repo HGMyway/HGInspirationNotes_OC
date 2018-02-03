@@ -25,6 +25,9 @@ PODS:
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
   - RegexKitLite-NoWarning (1.1.0)
+  - WCDB (1.0.6):
+    - WCDB/sqlcipher (= 1.0.6)
+  - WCDB/sqlcipher (1.0.6)
   - YYAsyncLayer (1.0)
   - YYCache (1.0.4)
   - YYCategories (1.0.4):
@@ -48,6 +51,7 @@ DEPENDENCIES:
   - MMMarkdown (~> 0.5.5)
   - ReactiveCocoa (~> 2.5)
   - RegexKitLite-NoWarning (~> 1.1.0)
+  - WCDB (~> 1.0.6)
   - YYAsyncLayer (~> 1.0)
   - YYCache (~> 1.0.4)
   - YYCategories (~> 1.0.4)
@@ -65,6 +69,7 @@ SPEC CHECKSUMS:
   MMMarkdown: 1af97166ce0f6d6e0cb05695665492195d27c3f1
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   RegexKitLite-NoWarning: 365d208f8187997e33d9de8baeddfc00728596d8
+  WCDB: 4d2926bf695b2e00d785b50afd32c2dcc8cbbd98
   YYAsyncLayer: df6b01ebc695c5f6b4c15dd5c23fa3e081eb25c0
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
@@ -75,6 +80,6 @@ SPEC CHECKSUMS:
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 1219184e595033d4287f421a45cf5903b6a28464
+PODFILE CHECKSUM: 5743d5f6e6542662649bb0408d33d88a6a0db801
 
 COCOAPODS: 1.3.1

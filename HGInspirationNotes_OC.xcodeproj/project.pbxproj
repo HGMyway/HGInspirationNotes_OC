@@ -22,16 +22,49 @@
 		D67F5E2B2020830C0069571D /* NSArray+HGMASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D67F5E2A2020830C0069571D /* NSArray+HGMASAdditions.m */; };
 		D67F5E3620209C3A0069571D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67F5E3520209C390069571D /* WebKit.framework */; };
 		D67F5E4720217F770069571D /* markdown.html in Resources */ = {isa = PBXBuildFile; fileRef = D67F5E4620217F760069571D /* markdown.html */; };
+		D69F5141202415BF00B19D1A /* HGBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A827BF2021ED3B00F9CBD7 /* HGBaseModel.m */; };
+		D69F5142202415C500B19D1A /* HGCollectionDBModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = D6A827C22021ED6200F9CBD7 /* HGCollectionDBModel.mm */; };
+		D69F51472024322800B19D1A /* HGBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D69F51462024322800B19D1A /* HGBaseTableViewCell.m */; };
+		D69F514A2024326D00B19D1A /* HGCollectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D69F51492024326D00B19D1A /* HGCollectionTableViewCell.m */; };
+		D69F514E20243C6B00B19D1A /* HGShowWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D69F514D20243C6B00B19D1A /* HGShowWebViewController.m */; };
+		D69F51512024551300B19D1A /* HGBaseNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D69F51502024551300B19D1A /* HGBaseNaviViewController.m */; };
+		D6A827AD2021B90A00F9CBD7 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A827AC2021B90A00F9CBD7 /* ShareViewController.m */; };
+		D6A827B02021B90A00F9CBD7 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6A827AE2021B90A00F9CBD7 /* MainInterface.storyboard */; };
+		D6A827B42021B90A00F9CBD7 /* HGShare.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D6A827A92021B90A00F9CBD7 /* HGShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D6A827BB2021ECD400F9CBD7 /* HGCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A827BA2021ECD400F9CBD7 /* HGCollectionViewController.m */; };
+		D6A827C02021ED3B00F9CBD7 /* HGBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A827BF2021ED3B00F9CBD7 /* HGBaseModel.m */; };
+		D6A827C32021ED6200F9CBD7 /* HGCollectionDBModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = D6A827C22021ED6200F9CBD7 /* HGCollectionDBModel.mm */; };
 		DE8A67D5D49D8DE66CA48064 /* libPods-HGInspirationNotes_OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B6AEC15EF9EBEAD2B90C56 /* libPods-HGInspirationNotes_OC.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D6A827B22021B90A00F9CBD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D67F5DF020204FC30069571D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6A827A82021B90A00F9CBD7;
+			remoteInfo = HGShare;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
+		D6A9A26C2024088A0065DBAB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6F80D752021B29100EF8E07 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				D6A827B42021B90A00F9CBD7 /* HGShare.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,9 +72,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		580A1A64D78C105F2E71D64E /* Pods-HGInspirationNotes_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGInspirationNotes_OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGInspirationNotes_OC/Pods-HGInspirationNotes_OC.release.xcconfig"; sourceTree = "<group>"; };
+		4F60DB55D2014BE9811ECB26 /* Pods-HGInspirationNotes_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGInspirationNotes_OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGInspirationNotes_OC/Pods-HGInspirationNotes_OC.release.xcconfig"; sourceTree = "<group>"; };
+		5A1E6C8FA7E86A88D0D355B7 /* Pods-HGInspirationNotes_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGInspirationNotes_OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGInspirationNotes_OC/Pods-HGInspirationNotes_OC.debug.xcconfig"; sourceTree = "<group>"; };
 		86B6AEC15EF9EBEAD2B90C56 /* libPods-HGInspirationNotes_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGInspirationNotes_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4EA90154CF155B8740C3855 /* Pods-HGInspirationNotes_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGInspirationNotes_OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGInspirationNotes_OC/Pods-HGInspirationNotes_OC.debug.xcconfig"; sourceTree = "<group>"; };
 		D67F5DF820204FC30069571D /* HGInspirationNotes_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGInspirationNotes_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D67F5DFB20204FC30069571D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D67F5DFC20204FC30069571D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,6 +102,28 @@
 		D67F5E30202091350069571D /* HGInspirationNotes_OC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGInspirationNotes_OC-Bridging-Header.h"; sourceTree = "<group>"; };
 		D67F5E3520209C390069571D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		D67F5E4620217F760069571D /* markdown.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = markdown.html; sourceTree = "<group>"; };
+		D69F51452024322800B19D1A /* HGBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGBaseTableViewCell.h; sourceTree = "<group>"; };
+		D69F51462024322800B19D1A /* HGBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGBaseTableViewCell.m; sourceTree = "<group>"; };
+		D69F51482024326D00B19D1A /* HGCollectionTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGCollectionTableViewCell.h; sourceTree = "<group>"; };
+		D69F51492024326D00B19D1A /* HGCollectionTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGCollectionTableViewCell.m; sourceTree = "<group>"; };
+		D69F514C20243C6B00B19D1A /* HGShowWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGShowWebViewController.h; sourceTree = "<group>"; };
+		D69F514D20243C6B00B19D1A /* HGShowWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGShowWebViewController.m; sourceTree = "<group>"; };
+		D69F514F2024551300B19D1A /* HGBaseNaviViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGBaseNaviViewController.h; sourceTree = "<group>"; };
+		D69F51502024551300B19D1A /* HGBaseNaviViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGBaseNaviViewController.m; sourceTree = "<group>"; };
+		D6A827A92021B90A00F9CBD7 /* HGShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HGShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A827AB2021B90A00F9CBD7 /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		D6A827AC2021B90A00F9CBD7 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		D6A827AF2021B90A00F9CBD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		D6A827B12021B90A00F9CBD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6A827B92021ECD400F9CBD7 /* HGCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGCollectionViewController.h; sourceTree = "<group>"; };
+		D6A827BA2021ECD400F9CBD7 /* HGCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGCollectionViewController.m; sourceTree = "<group>"; };
+		D6A827BE2021ED3B00F9CBD7 /* HGBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGBaseModel.h; sourceTree = "<group>"; };
+		D6A827BF2021ED3B00F9CBD7 /* HGBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGBaseModel.m; sourceTree = "<group>"; };
+		D6A827C12021ED6200F9CBD7 /* HGCollectionDBModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGCollectionDBModel.h; sourceTree = "<group>"; };
+		D6A827C22021ED6200F9CBD7 /* HGCollectionDBModel.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HGCollectionDBModel.mm; sourceTree = "<group>"; };
+		D6A827C42021FB1400F9CBD7 /* HGCollectionDBModel+WCTTableCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGCollectionDBModel+WCTTableCoding.h"; sourceTree = "<group>"; };
+		D6A9A250202362C80065DBAB /* HGShare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HGShare.entitlements; sourceTree = "<group>"; };
+		D6A9A251202367220065DBAB /* HGInspirationNotes_OC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HGInspirationNotes_OC.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +136,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D6A827A62021B90A00F9CBD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -88,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				D67F5DFA20204FC30069571D /* HGInspirationNotes_OC */,
+				D6A827AA2021B90A00F9CBD7 /* HGShare */,
 				D67F5DF920204FC30069571D /* Products */,
 				ECA6300B169C82199BB8F527 /* Pods */,
 				ED320804A55CFABFBBFB28FE /* Frameworks */,
@@ -98,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				D67F5DF820204FC30069571D /* HGInspirationNotes_OC.app */,
+				D6A827A92021B90A00F9CBD7 /* HGShare.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +180,7 @@
 		D67F5E14202050CD0069571D /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				D6A9A251202367220065DBAB /* HGInspirationNotes_OC.entitlements */,
 				D67F5DFB20204FC30069571D /* AppDelegate.h */,
 				D67F5DFC20204FC30069571D /* AppDelegate.m */,
 				D67F5E0420204FC30069571D /* Main.storyboard */,
@@ -131,6 +196,8 @@
 		D67F5E15202050DA0069571D /* Cofee */ = {
 			isa = PBXGroup;
 			children = (
+				D69F514B20243C3700B19D1A /* WebView */,
+				D6A827B82021EC2100F9CBD7 /* HGCollection */,
 				D67F5E1A202051110069571D /* MarkDown */,
 				D67F5DFE20204FC30069571D /* FirstViewController.h */,
 				D67F5DFF20204FC30069571D /* FirstViewController.m */,
@@ -145,6 +212,12 @@
 			children = (
 				D67F5E17202051040069571D /* HGBaseViewController.h */,
 				D67F5E18202051040069571D /* HGBaseViewController.m */,
+				D6A827BE2021ED3B00F9CBD7 /* HGBaseModel.h */,
+				D6A827BF2021ED3B00F9CBD7 /* HGBaseModel.m */,
+				D69F51452024322800B19D1A /* HGBaseTableViewCell.h */,
+				D69F51462024322800B19D1A /* HGBaseTableViewCell.m */,
+				D69F514F2024551300B19D1A /* HGBaseNaviViewController.h */,
+				D69F51502024551300B19D1A /* HGBaseNaviViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -206,11 +279,62 @@
 			path = HGToolbarView;
 			sourceTree = "<group>";
 		};
+		D69F514B20243C3700B19D1A /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				D69F514C20243C6B00B19D1A /* HGShowWebViewController.h */,
+				D69F514D20243C6B00B19D1A /* HGShowWebViewController.m */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		D6A827AA2021B90A00F9CBD7 /* HGShare */ = {
+			isa = PBXGroup;
+			children = (
+				D6A9A250202362C80065DBAB /* HGShare.entitlements */,
+				D6A827AB2021B90A00F9CBD7 /* ShareViewController.h */,
+				D6A827AC2021B90A00F9CBD7 /* ShareViewController.m */,
+				D6A827AE2021B90A00F9CBD7 /* MainInterface.storyboard */,
+				D6A827B12021B90A00F9CBD7 /* Info.plist */,
+			);
+			path = HGShare;
+			sourceTree = "<group>";
+		};
+		D6A827B82021EC2100F9CBD7 /* HGCollection */ = {
+			isa = PBXGroup;
+			children = (
+				D6A827BD2021ECE000F9CBD7 /* Models */,
+				D6A827BC2021ECDB00F9CBD7 /* Views */,
+				D6A827B92021ECD400F9CBD7 /* HGCollectionViewController.h */,
+				D6A827BA2021ECD400F9CBD7 /* HGCollectionViewController.m */,
+			);
+			path = HGCollection;
+			sourceTree = "<group>";
+		};
+		D6A827BC2021ECDB00F9CBD7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D69F51482024326D00B19D1A /* HGCollectionTableViewCell.h */,
+				D69F51492024326D00B19D1A /* HGCollectionTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D6A827BD2021ECE000F9CBD7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D6A827C42021FB1400F9CBD7 /* HGCollectionDBModel+WCTTableCoding.h */,
+				D6A827C12021ED6200F9CBD7 /* HGCollectionDBModel.h */,
+				D6A827C22021ED6200F9CBD7 /* HGCollectionDBModel.mm */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		ECA6300B169C82199BB8F527 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C4EA90154CF155B8740C3855 /* Pods-HGInspirationNotes_OC.debug.xcconfig */,
-				580A1A64D78C105F2E71D64E /* Pods-HGInspirationNotes_OC.release.xcconfig */,
+				5A1E6C8FA7E86A88D0D355B7 /* Pods-HGInspirationNotes_OC.debug.xcconfig */,
+				4F60DB55D2014BE9811ECB26 /* Pods-HGInspirationNotes_OC.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -238,15 +362,34 @@
 				499A3D212BE4D65EBC53D594 /* [CP] Embed Pods Frameworks */,
 				19E28D7CE7B244B058BE5B62 /* [CP] Copy Pods Resources */,
 				D6F80D752021B29100EF8E07 /* Embed App Extensions */,
+				D6A9A26C2024088A0065DBAB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D6A827B32021B90A00F9CBD7 /* PBXTargetDependency */,
 			);
 			name = HGInspirationNotes_OC;
 			productName = HGInspirationNotes_OC;
 			productReference = D67F5DF820204FC30069571D /* HGInspirationNotes_OC.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D6A827A82021B90A00F9CBD7 /* HGShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6A827B72021B90A00F9CBD7 /* Build configuration list for PBXNativeTarget "HGShare" */;
+			buildPhases = (
+				D6A827A52021B90A00F9CBD7 /* Sources */,
+				D6A827A62021B90A00F9CBD7 /* Frameworks */,
+				D6A827A72021B90A00F9CBD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HGShare;
+			productName = HGShare;
+			productReference = D6A827A92021B90A00F9CBD7 /* HGShare.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -260,7 +403,21 @@
 					D67F5DF720204FC30069571D = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 0920;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					D6A827A82021B90A00F9CBD7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -278,6 +435,7 @@
 			projectRoot = "";
 			targets = (
 				D67F5DF720204FC30069571D /* HGInspirationNotes_OC */,
+				D6A827A82021B90A00F9CBD7 /* HGShare */,
 			);
 		};
 /* End PBXProject section */
@@ -291,6 +449,14 @@
 				D67F5E0820204FC30069571D /* Assets.xcassets in Resources */,
 				D67F5E4720217F770069571D /* markdown.html in Resources */,
 				D67F5E0620204FC30069571D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A827A72021B90A00F9CBD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6A827B02021B90A00F9CBD7 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,19 +519,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				D67F5E21202052880069571D /* HGMarkDownTextView.m in Sources */,
+				D69F514E20243C6B00B19D1A /* HGShowWebViewController.m in Sources */,
+				D69F51472024322800B19D1A /* HGBaseTableViewCell.m in Sources */,
 				D67F5E272020604D0069571D /* HGToolbarButton.m in Sources */,
 				D67F5E19202051040069571D /* HGBaseViewController.m in Sources */,
+				D6A827C32021ED6200F9CBD7 /* HGCollectionDBModel.mm in Sources */,
 				D67F5E0320204FC30069571D /* SecondViewController.m in Sources */,
+				D6A827BB2021ECD400F9CBD7 /* HGCollectionViewController.m in Sources */,
 				D67F5E24202053F00069571D /* HGButtonsBarView.m in Sources */,
 				D67F5E2B2020830C0069571D /* NSArray+HGMASAdditions.m in Sources */,
+				D6A827C02021ED3B00F9CBD7 /* HGBaseModel.m in Sources */,
+				D69F51512024551300B19D1A /* HGBaseNaviViewController.m in Sources */,
 				D67F5E1D2020512A0069571D /* HGMarkDownViewController.m in Sources */,
 				D67F5DFD20204FC30069571D /* AppDelegate.m in Sources */,
 				D67F5E0E20204FC30069571D /* main.m in Sources */,
 				D67F5E0020204FC30069571D /* FirstViewController.m in Sources */,
+				D69F514A2024326D00B19D1A /* HGCollectionTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A827A52021B90A00F9CBD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69F5142202415C500B19D1A /* HGCollectionDBModel.mm in Sources */,
+				D69F5141202415BF00B19D1A /* HGBaseModel.m in Sources */,
+				D6A827AD2021B90A00F9CBD7 /* ShareViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6A827B32021B90A00F9CBD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6A827A82021B90A00F9CBD7 /* HGShare */;
+			targetProxy = D6A827B22021B90A00F9CBD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D67F5E0420204FC30069571D /* Main.storyboard */ = {
@@ -382,6 +573,14 @@
 				D67F5E0A20204FC30069571D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D6A827AE2021B90A00F9CBD7 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6A827AF2021B90A00F9CBD7 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -493,16 +692,20 @@
 		};
 		D67F5E1220204FC30069571D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4EA90154CF155B8740C3855 /* Pods-HGInspirationNotes_OC.debug.xcconfig */;
+			baseConfigurationReference = 5A1E6C8FA7E86A88D0D355B7 /* Pods-HGInspirationNotes_OC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = HGInspirationNotes_OC/HGInspirationNotes_OC.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = VE43YF4AD7;
 				INFOPLIST_FILE = HGInspirationNotes_OC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.myway.HGInspirationNotes-OC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myway.fengbao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "79f05261-8909-4487-a346-764193fade15";
+				PROVISIONING_PROFILE_SPECIFIER = fengbao;
 				SWIFT_OBJC_BRIDGING_HEADER = "HGInspirationNotes_OC/HGInspirationNotes_OC-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -512,18 +715,60 @@
 		};
 		D67F5E1320204FC30069571D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 580A1A64D78C105F2E71D64E /* Pods-HGInspirationNotes_OC.release.xcconfig */;
+			baseConfigurationReference = 4F60DB55D2014BE9811ECB26 /* Pods-HGInspirationNotes_OC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = HGInspirationNotes_OC/HGInspirationNotes_OC.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = VE43YF4AD7;
 				INFOPLIST_FILE = HGInspirationNotes_OC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.myway.HGInspirationNotes-OC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myway.fengbao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "79f05261-8909-4487-a346-764193fade15";
+				PROVISIONING_PROFILE_SPECIFIER = fengbao;
 				SWIFT_OBJC_BRIDGING_HEADER = "HGInspirationNotes_OC/HGInspirationNotes_OC-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6A827B52021B90A00F9CBD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A1E6C8FA7E86A88D0D355B7 /* Pods-HGInspirationNotes_OC.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HGShare/HGShare.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VE43YF4AD7;
+				INFOPLIST_FILE = HGShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myway.fengbao.share;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5aafb62d-fba2-4690-8190-355a7c9ddb7b";
+				PROVISIONING_PROFILE_SPECIFIER = FengbaoUrlShare;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6A827B62021B90A00F9CBD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A1E6C8FA7E86A88D0D355B7 /* Pods-HGInspirationNotes_OC.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HGShare/HGShare.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VE43YF4AD7;
+				INFOPLIST_FILE = HGShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myway.fengbao.share;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1b0d786a-ec01-47c4-b465-d67eadb4a3d6";
+				PROVISIONING_PROFILE_SPECIFIER = FengbaoUrlShare;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -545,6 +790,15 @@
 			buildConfigurations = (
 				D67F5E1220204FC30069571D /* Debug */,
 				D67F5E1320204FC30069571D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6A827B72021B90A00F9CBD7 /* Build configuration list for PBXNativeTarget "HGShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6A827B52021B90A00F9CBD7 /* Debug */,
+				D6A827B62021B90A00F9CBD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
